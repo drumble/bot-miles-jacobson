@@ -14,7 +14,7 @@ bot.on('guildMemberAdd', member =>{
     const channel = member.guild.channels.find(channel => channel.name === "selamat-datang-pelatih");
     if(!channel) return;
 
-    channel.send (`Selamat Datang di Server Pertama Discord Football Manager Indonesia, ${member}, silahkan lihat aturan juga regulasi, dan tolong isi career milestone yaa, agar kita bisa bertemu sapa :soccer:   ISI CAREER MILESTONES AGAR DAPAT BERPARTISIPASI DI SERVER INI :soccer:`)
+    channel.send (`Selamat Datang di Server Pertama Discord Football Manager Indonesia, ${member}, silahkan lihat aturan juga regulasi, dan tolong isi career milestone yaa, agar kita bisa bertemu sapa :soccer: ISI CAREER MILESTONES AGAR DAPAT BERPARTISIPASI DI SERVER INI :soccer:`)
 });
 
 bot.login(process.env.token);
